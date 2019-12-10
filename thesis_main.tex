@@ -42,6 +42,17 @@
 %\usepackage{minted} %Kann für schöneres Syntax Highlighting genutzt werden. ACHTUNG: Python muss installiert sein.
 \usepackage[scaled=0.9]{helvet} % Behebt, zusammen mit Package courier, pixelige Überschriften. Ist, zusammen mit mathptx, dem times-Package vorzuziehen. Details: https://latex-kurs.de/fragen/schriftarten/Times_New_Roman.html
 \usepackage{courier}
+
+
+\usepackage{fontspec}
+% Schriftart Times New Roman
+\setsansfont{Times New Roman}
+
+% Schriftart Arial
+%\setsansfont{Arial}
+\renewcommand\familydefault{\sfdefault}
+
+
 \usepackage{amsmath}
 \usepackage[table]{xcolor}
 \usepackage{marvosym}			% Verwendung von Symbolen, z.B. perfektes Eurozeichen
